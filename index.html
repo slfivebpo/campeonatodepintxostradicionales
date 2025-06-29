@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshBites | Premium Food Store & Delivery</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<style >
+    .category-card {
+        padding-bottom: 20px;
+    }
+</style>
+
+<body>
+    <!-- WhatsApp Floating Button -->
+    <!-- <div class="whatsapp-float">
+        <a href="https://wa.me/1234567890?text=Hi%20FreshBites,%20I'd%20like%20to%20place%20an%20order" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+            <span>Order Now</span>
+        </a>
+    </div> -->
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>FreshBites</h1>
+                <p>Premium Food Store & Delivery</p>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#meals">Ready Meals</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#testimonials">Reviews</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="animate-slide-up">Fresh & Delicious Food Delivered to Your Door</h1>
+                <p class="animate-slide-up delay-1">Premium quality groceries and ready-to-eat meals for your convenience</p>
+                <div class="hero-buttons animate-slide-up delay-2">
+                    <a href="#products" class="btn btn-primary">Shop Now</a>
+                    <a href="#meals" class="btn btn-secondary">View Meals</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Categories</h2>
+                <p>Explore our wide range of food categories</p>
+            </div>
+            
+            <div class="categories-grid">
+                <div class="category-card">
+                    <div class="category-image">
+                        <img src="images/fruits-veggies.jpg" alt="Fruits & Vegetables">
+                    </div>
+                    <h3>Fresh Produce</h3>
+                    <a href="#products" class="btn btn-outline">Browse</a>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-image">
+                        <img src="images/dairy.jpg" alt="Dairy & Eggs">
+                    </div>
+                    <h3>Dairy & Eggs</h3>
+                    <a href="#products" class="btn btn-outline">Browse</a>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-image">
+                        <img src="images/meat.jpg" alt="Meat & Poultry">
+                    </div>
+                    <h3>Meat & Poultry</h3>
+                    <a href="#products" class="btn btn-outline">Browse</a>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-image">
+                        <img src="images/bakery.jpg" alt="Bakery">
+                    </div>
+                    <h3>Bakery</h3>
+                    <a href="#products" class="btn btn-outline">Browse</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured-products section-padding" id="products">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Products</h2>
+                <p>Our most popular grocery items</p>
+            </div>
+            
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product1.jpg" alt="Organic Apples">
+                        <div class="product-badge">Fresh</div>
+                        <!-- <div class="product-overlay">
+                            <a href="https://wa.me/1234567890?text=Hi,%20I'd%20like%20to%20order%20Organic%20Apples" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> Order Now</a>
+                        </div> -->
+                    </div>
+                    <div class="product-details">
+                        <h3>Organic Apples</h3>
+                        <p class="weight">1kg pack</p>
+                        <div class="price">$3.99</div>
+                    </div>
+                </div>
+                
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product2.jpg" alt="Free Range Eggs">
+                        <div class="product-badge">Best Seller</div>
+                        <!-- <div class="product-overlay">
+                            <a href="https://wa.me/1234567890?text=Hi,%20I'd%20like%20to%20order%20Free%20Range%20Eggs" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> Order Now</a>
+                        </div> -->
+                    </div>
+                    <div class="product-details">
+                        <h3>Free Range Eggs</h3>
+                        <p class="weight">12 pieces</p>
+                        <div class="price">$4.49</div>
+                    </div>
+                </div>
+                
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product3.jpg" alt="Grass-Fed Beef">
+                        <div class="product-badge">Premium</div>
+                        <!-- <div class="product-overlay">
+                            <a href="https://wa.me/1234567890?text=Hi,%20I'd%20like%20to%20order%20Grass-Fed%20Beef" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> Order Now</a>
+                        </div> -->
+                    </div>
+                    <div class="product-details">
+                        <h3>Grass-Fed Beef</h3>
+                        <p class="weight">500g pack</p>
+                        <div class="price">$8.99</div>
+                    </div>
+                </div>
+                
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product4.jpg" alt="Artisan Bread">
+                        <div class="product-badge">Fresh</div>
+                        <!-- <div class="product-overlay">
+                            <a href="https://wa.me/1234567890?text=Hi,%20I'd%20like%20to%20order%20Artisan%20Bread" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> Order Now</a>
+                        </div> -->
+                    </div>
+                    <div class="product-details">
+                        <h3>Artisan Bread</h3>
+                        <p class="weight">1 loaf</p>
+                        <div class="price">$3.49</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-40">
+                <a href="#" class="btn btn-primary">View All Products</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ready Meals Section -->
+    <section class="ready-meals section-padding" id="meals">
+        <div class="container">
+            <div class="section-header">
+                <h2>Ready-to-Eat Meals</h2>
+                <p>Delicious meals prepared by our chefs</p>
+            </div>
+            
+            <div class="swiper meals-slider">
+                <div class="swiper-wrapper">
+                    <!-- Meal 1 -->
+                    <div class="swiper-slide meal-card">
+                        <div class="meal-image">
+                            <img src="images/meal1.jpg" alt="Chicken Pasta">
+                            <div class="meal-price">$12.99</div>
+                        </div>
+                        <div class="meal-details">
+                            <h3>Chicken Alfredo Pasta</h3>
+                            <p class="description">Creamy Alfredo sauce with grilled chicken and fettuccine pasta.</p>
+                            <!-- <div class="meal-actions">
+                                <a href="#" class="btn btn-outline">Details</a>
+                                <a href="https://wa.me/1234567890?text=Hi,%20I'd%20like%20to%20order%20Chicken%20Alfredo%20Pasta" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> Order</a>
+                            </div> -->
+                        </div>
+                    </div>
+                    
+                    <!-- Meal 2 -->
+                    <div class="swiper-slide meal-card">
+                        <div class="meal-image">
+                            <img src="images/meal2.jpg" alt="Vegetable Curry">
+                            <div class="meal-price">$10.99</div>
+                        </div>
+                        <div class="meal-details">
+                            <h3>Vegetable Curry</h3>
+                            <p class="description">Mixed vegetables in aromatic coconut curry sauce with basmati rice.</p>
+                            <!-- <div class="meal-actions">
+                                <a href="#" class="btn btn-outline">Details</a>
+                                <a href="https://wa.me/1234567890?text=Hi,%20I'd%20like%20to%20order%20Vegetable%20Curry" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> Order</a>
+                            </div> -->
+                        </div>
+                    </div>
+                    
+                    <!-- Meal 3 -->
+                    <div class="swiper-slide meal-card">
+                        <div class="meal-image">
+                            <img src="images/meal3.jpg" alt="Beef Burger">
+                            <div class="meal-price">$9.99</div>
+                        </div>
+                        <div class="meal-details">
+                            <h3>Gourmet Beef Burger</h3>
+                            <p class="description">Juicy beef patty with cheese, lettuce, tomato, and special sauce.</p>
+                            <!-- <div class="meal-actions">
+                                <a href="#" class="btn btn-outline">Details</a>
+                                <a href="https://wa.me/1234567890?text=Hi,%20I'd%20like%20to%20order%20Gourmet%20Beef%20Burger" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> Order</a>
+                            </div> -->
+                        </div>
+                    </div>
+                    
+                    <!-- Meal 4 -->
+                    <div class="swiper-slide meal-card">
+                        <div class="meal-image">
+                            <img src="images/meal4.jpg" alt="Salmon Salad">
+                            <div class="meal-price">$14.99</div>
+                        </div>
+                        <div class="meal-details">
+                            <h3>Grilled Salmon Salad</h3>
+                            <p class="description">Fresh grilled salmon with mixed greens, avocado, and lemon dressing.</p>
+                            <!-- <div class="meal-actions">
+                                <a href="#" class="btn btn-outline">Details</a>
+                                <a href="https://wa.me/1234567890?text=Hi,%20I'd%20like%20to%20order%20Grilled%20Salmon%20Salad" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> Order</a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            
+            <div class="text-center mt-40">
+                <a href="#" class="btn btn-primary">View All Meals</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Choose FreshBites</h2>
+                <p>We're committed to quality and convenience</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Fresh Ingredients</h3>
+                    <p>We source only the freshest, highest quality ingredients for all our products.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3>Fast Delivery</h3>
+                    <p>Get your order delivered to your doorstep within 2 hours in our service area.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Healthy Options</h3>
+                    <p>We offer a wide range of organic, gluten-free, and vegan options.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Expert Chefs</h3>
+                    <p>Our ready meals are prepared by professional chefs with years of experience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials section-padding" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Customer Reviews</h2>
+                <p>What our customers say about us</p>
+            </div>
+            
+            <div class="swiper testimonial-slider">
+                <div class="swiper-wrapper">
+                    <!-- Testimonial 1 -->
+                    <div class="swiper-slide testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="quote">"The quality of produce at FreshBites is outstanding. I order my groceries weekly and the delivery is always on time."</p>
+                            <div class="client-info">
+                                <!-- <img src="images/client1.jpg" alt="Sarah Johnson"> -->
+                                <div>
+                                    <h4>Sarah Johnson</h4>
+                                    <p>Regular Customer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Testimonial 2 -->
+                    <div class="swiper-slide testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="quote">"Their ready meals have been a lifesaver for my busy schedule. Delicious, healthy, and convenient!"</p>
+                            <div class="client-info">
+                                <!-- <img src="images/client2.jpg" alt="Michael Chen"> -->
+                                <div>
+                                    <h4>Michael Chen</h4>
+                                    <p>Working Professional</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Testimonial 3 -->
+                    <div class="swiper-slide testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <p class="quote">"I love that I can order through WhatsApp. The customer service is excellent and they always get my order right."</p>
+                            <div class="client-info">
+                                <img src="images/client3.jpg" alt="The Rodriguez Family">
+                                <div>
+                                    <h4>The Rodriguez Family</h4>
+                                    <p>Family of Four</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section-padding" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About FreshBites</h2>
+                    <p>Founded in 2015, FreshBites started as a small neighborhood grocery store with a passion for fresh, quality food. Today, we've grown into a full-service food store and delivery service, but we've never lost sight of our original values.</p>
+                    <p>We believe everyone deserves access to fresh, healthy food without compromising on convenience. That's why we've developed our unique combination of premium grocery selection and chef-prepared ready meals, all available with quick delivery or pickup.</p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="5000">0</div>
+                            <div class="stat-label">Happy Customers</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="200">0</div>
+                            <div class="stat-label">Products Available</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="30">0</div>
+                            <div class="stat-label">Meal Options</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="images/about-store.jpg" alt="Our Store">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section-padding" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Us</h2>
+                <p>We'd love to hear from you</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Our Store</h3>
+                            <p>123 Fresh Street<br>Foodville, CA 90210</p>
+                        </div>
+                    </div>
+                    
+                    <!-- <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Call Us</h3>
+                            <p>+1 (555) 123-4567</p>
+                            <p>Mon-Sat: 8am - 8pm</p>
+                        </div>
+                    </div> -->
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Email Us</h3>
+                            <p>info@freshbites.com</p>
+                            <p>orders@freshbites.com</p>
+                        </div>
+                    </div>
+                    
+                    <!-- <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>WhatsApp</h3>
+                            <p>+1 (555) 123-4567</p>
+                            <a href="https://wa.me/1234567890" class="btn btn-whatsapp-small"><i class="fab fa-whatsapp"></i> Chat Now</a>
+                        </div>
+                    </div> -->
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" placeholder="Your Phone">
+                        </div>
+                        <div class="form-group">
+                            <select id="subject" required>
+                                <option value="">Select Subject</option>
+                                <option value="order-inquiry">Order Inquiry</option>
+                                <option value="feedback">Feedback</option>
+                                <option value="complaint">Complaint</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Subscribe to Our Newsletter</h2>
+                <p>Get weekly deals, new product announcements, and special offers</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>FreshBites</h3>
+                    <p>Your trusted source for fresh groceries and delicious ready-to-eat meals delivered to your door.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#meals">Ready Meals</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Categories</h3>
+                    <ul>
+                        <li><a href="#">Fresh Produce</a></li>
+                        <li><a href="#">Dairy & Eggs</a></li>
+                        <li><a href="#">Meat & Poultry</a></li>
+                        <li><a href="#">Bakery</a></li>
+                        <li><a href="#">Pantry Staples</a></li>
+                        <li><a href="#">Beverages</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Information</h3>
+                    <ul>
+                        <li><a href="#">Delivery Information</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 FreshBites. All Rights Reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
